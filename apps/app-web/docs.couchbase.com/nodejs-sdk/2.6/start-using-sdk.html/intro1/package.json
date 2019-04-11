@@ -1,0 +1,17 @@
+{
+  "name": "intro1",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "couchbase": "^2.6.3"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "app": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
