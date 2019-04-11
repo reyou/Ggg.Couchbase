@@ -1,0 +1,25 @@
+{
+  "name": "intro1",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/index.js",
+  "scripts": {
+    "prebuild": "tslint -c tslint.json -p tsconfig.json --fix",
+    "build": "tsc",
+    "prestart": "npm run build",
+    "start": "node .",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "@types/couchbase": "^2.4.1",
+    "couchbase": "^2.6.3"
+  },
+  "devDependencies": {
+    "@types/node": "^11.13.0",
+    "tslint": "^5.15.0",
+    "typescript": "^3.4.1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
